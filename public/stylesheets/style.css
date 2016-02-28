@@ -38,6 +38,7 @@ h1 {
 }
 .expandedButton {
     width: 500px !important;
+    max-width: 90vw;
     height: 500px !important;
 }
 #slidingUnderline {
