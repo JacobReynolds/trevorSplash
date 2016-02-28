@@ -26,7 +26,7 @@ function sendEmail(name, email, body) {
     smtpTransport.sendMail({
         from: name + '<' + email + '>',
         replyTo: email, // sender address
-        to: "Trevor Dillon <jreynoldsdev@gmail.com>", // comma separated list of receivers
+        to: "Trevor Dillon <trevordillonart@gmail.com>", // comma separated list of receivers
         subject: name, // Subject line
         text: body // plaintext body
     }, function (error, response) {
